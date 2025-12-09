@@ -13,3 +13,9 @@ config_version=5
 config/name="clash royal 2"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+git init
+git branch -M main
+git remote add origin https://github.com/jrmikeflash-droid/clash-royal-2-mukundh-version.git
+git add .
+git commit -m "First upload"
+git push -u origin main
